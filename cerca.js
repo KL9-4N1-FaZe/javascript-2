@@ -4,5 +4,5 @@ let parole = ["albero", "casa", "computer", "auto", "mare", "giardino", "lampada
 let paroleDaCercare = ["auto", "scuola", "lampada", "computer", "bicicletta"];
 
 for(let i=0; i<paroleDaCercare.length; i++){
-   console.log(parole.indexOf(paroleDaCercare[i])) 
+   console.log(paroleDaCercare[i] + " " + parole.indexOf(paroleDaCercare[i])) 
 }
